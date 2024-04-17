@@ -11,17 +11,22 @@ export function AboutSection() {
   return (
     <TracingBeam className="px-6">
       <div className="max-w-2xl mx-auto antialiased pt-4 relative">
-        {dummyContent.map((item, index) => (
+        {content.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
             <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
               {item.badge}
             </h2>
 
-            <p className={twMerge(inter.className, "text-xl mb-4 text-white")}>
+            <p
+              className={twMerge(
+                inter.className,
+                "text-3xl font-semibold mb-4 text-white"
+              )}
+            >
               {item.title}
             </p>
 
-            <div className="text-sm  prose prose-sm dark:prose-invert text-white">
+            <div className="text-sm prose prose-sm dark:prose-invert text-white">
               {item.description}
             </div>
           </div>
@@ -31,7 +36,7 @@ export function AboutSection() {
   );
 }
 
-const dummyContent = [
+const content = [
   {
     title: "Who Am I?",
     description: (
