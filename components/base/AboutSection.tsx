@@ -7,7 +7,7 @@ import { TracingBeam } from "../ui/tracing-beam";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export function Projects() {
+export function AboutSection() {
   return (
     <TracingBeam className="px-6">
       <div className="max-w-2xl mx-auto antialiased pt-4 relative">

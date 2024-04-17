@@ -1,6 +1,6 @@
 import { Hero } from "@/components/base/Hero";
 import { Navbar } from "@/components/base/Navbar";
-import { Projects } from "@/components/base/Projects";
+import { AboutSection } from "@/components/base/AboutSection";
 
 import Image from "next/image";
 
@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
-      <Projects />
+      <AboutSection />
     </div>
   );
 }
