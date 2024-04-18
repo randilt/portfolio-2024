@@ -13,7 +13,7 @@ const Skills = () => {
       <div className=" text-white py-12 text-6xl font-bold text-center">
         <h1>Skills</h1>
       </div>
-      <div className="grid grid-cols-1 gap-6  py-10 md:grid-cols-2 lg:grid-cols-3 max-w-full px:4 md:px-64">
+      <div className="grid grid-cols-1 gap-6  py-10 md:grid-cols-2 lg:grid-cols-3 mx-4 max-w-full px:4 md:px-64">
         <EvervaultCardDemo text="NodeJS" icon={<TbBrandNodejs />} />
         <EvervaultCardDemo text="ReactJS" icon={<FaReact />} />
         <EvervaultCardDemo text="NextJS" icon={<SiNextdotjs />} />

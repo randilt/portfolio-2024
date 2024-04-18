@@ -11,12 +11,12 @@ export function Navbar() {
     },
     {
       name: "About",
-      link: "/about",
+      link: "/",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Contact",
-      link: "/contact",
+      link: "/",
       icon: (
         <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
