@@ -9,7 +9,7 @@ export function EvervaultCardDemo(props: any) {
       <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
 
-      <EvervaultCard text={props.text} />
+      <EvervaultCard text={props.text} icon={props.icon} />
     </div>
   );
 }
