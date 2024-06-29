@@ -38,12 +38,12 @@ export function AboutSection() {
 
 const content = [
   {
-    title: "Who Am I?",
+    title: "About Me",
     description: (
       <>
         <p>
-          I'm Randil Tharusha, a dedicated software developer, tech enthusiast,
-          and gamer from Gampaha, Sri Lanka. At 20 years old, I'm currently
+          I'm Randil Tharusha, a dedicated software developer and a tech
+          enthusiast from Gampaha, Sri Lanka. At 20 years old, I'm currently
           honing my skills as a freelance web developer and as an undergraduate
           student in Software Engineering. My journey in technology isn't just
           about personal growth; it's also about sharing knowledge and
