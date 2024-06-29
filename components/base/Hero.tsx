@@ -18,12 +18,10 @@ export function Hero() {
           duration: 0.5,
           ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+        className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
         I am Randil Tharusha, A FullStack Developer <br />
-        <Highlight className="text-black dark:text-white">
-          Specialized in MERN Stack
-        </Highlight>
+        <Highlight className="text-white">Specialized in MERN Stack</Highlight>
       </motion.h1>
     </HeroHighlight>
   );
